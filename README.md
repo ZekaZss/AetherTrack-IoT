@@ -36,7 +36,7 @@ Proyek ini memuat MVP (Minimum Viable Product) berupa *Landing Page* statis. Unt
 [Masukkan Link Figma Kamu Di Sini]
 
 *(Tampilan Landing Page & Dashboard)*
-![Dashboard AetherTrack](assets/nama_gambar_figma_kamu.png)
+![Dashboard AetherTrack](assets/Dashboard AetherTrack.png)
 
 ## 📄 Dokumen Laporan UTS
 Laporan lengkap mengenai Analisis Masalah, Business Model Canvas (BMC), Analisis Kompetitor, dan Rencana Monetisasi dapat diakses pada file PDF berikut:
