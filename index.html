@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AetherTrack | Intelligent Warehouse IoT</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #f8f9fa; }
+        .hero-section { background-color: #ffffff; padding: 80px 0; border-bottom: 1px solid #eaeaea; }
+        .feature-card { border: none; border-radius: 12px; transition: transform 0.3s; box-shadow: 0 4px 6px rgba(0,0,0,0.05); }
+        .feature-card:hover { transform: translateY(-5px); }
+        .pricing-card { border-radius: 12px; }
+        .btn-custom { background-color: #f1c40f; color: #333; font-weight: bold; border: none; }
+        .btn-custom:hover { background-color: #f39c12; color: #fff; }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-white py-3 shadow-sm">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#"><i class="fas fa-microchip text-warning"></i> AetherTrack</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#platform">Platform</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#features">Fitur</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#pricing">Harga</a></li>
+                    <li class="nav-item ms-lg-3"><a class="btn btn-custom px-4" href="#">Get Started</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero-section text-center">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <h1 class="display-5 fw-bold mb-3">Intelligent Warehouse Monitoring Powered by IoT Sensors</h1>
+                    <p class="lead text-muted mb-4">Pantau suhu, kelembapan, dan aset gudang logistik Anda di Batam secara real-time. Cegah kerusakan barang dengan peringatan otomatis 24/7.</p>
+                    <a href="#" class="btn btn-custom btn-lg px-5 me-2">Explore Platform</a>
+                    <a href="#" class="btn btn-outline-secondary btn-lg px-5">Live Dashboard</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="features" class="py-5">
+        <div class="container text-center py-4">
+            <h2 class="fw-bold mb-5">Comprehensive Monitoring Capabilities</h2>
+            <div class="row g-4">
+                <div class="col-md-3">
+                    <div class="card feature-card h-100 p-4">
+                        <i class="fas fa-temperature-high fa-3x text-danger mb-3"></i>
+                        <h5 class="fw-bold">IoT Monitoring</h5>
+                        <p class="text-muted small">Pemantauan variabel lingkungan secara terus-menerus dengan sensor presisi tinggi.</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card feature-card h-100 p-4">
+                        <i class="fas fa-chart-line fa-3x text-primary mb-3"></i>
+                        <h5 class="fw-bold">Real-time Analytics</h5>
+                        <p class="text-muted small">Ubah data mentah menjadi wawasan yang dapat ditindaklanjuti secara instan.</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card feature-card h-100 p-4">
+                        <i class="fas fa-bell fa-3x text-warning mb-3"></i>
+                        <h5 class="fw-bold">Automated Alerts</h5>
+                        <p class="text-muted small">Terima notifikasi ke HP/Email saat suhu melewati ambang batas aman.</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card feature-card h-100 p-4">
+                        <i class="fas fa-cloud-upload-alt fa-3x text-info mb-3"></i>
+                        <h5 class="fw-bold">Cloud Sync</h5>
+                        <p class="text-muted small">Sinkronisasi data aman terpusat untuk kemudahan audit dan pelaporan.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="pricing" class="py-5 bg-white">
+        <div class="container text-center py-4">
+            <h2 class="fw-bold mb-5">Transparent Pricing for Every Scale</h2>
+            <div class="row justify-content-center g-4">
+                <div class="col-lg-3 col-md-6">
+                    <div class="card pricing-card border p-4 h-100">
+                        <h5 class="text-muted">Basic</h5>
+                        <h2 class="fw-bold my-3">$299<span class="fs-6 text-muted fw-normal">/mo</span></h2>
+                        <ul class="list-unstyled text-start text-muted mb-4">
+                            <li class="mb-2"><i class="fas fa-check text-success me-2"></i> 5 Sensors</li>
+                            <li class="mb-2"><i class="fas fa-check text-success me-2"></i> Basic Analytics</li>
+                            <li class="mb-2"><i class="fas fa-check text-success me-2"></i> Email Alerts</li>
+                        </ul>
+                        <a href="#" class="btn btn-outline-secondary w-100 mt-auto">Select Plan</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="card pricing-card border-warning border-2 p-4 h-100 shadow">
+                        <span class="badge bg-warning text-dark position-absolute top-0 start-50 translate-middle rounded-pill">MOST POPULAR</span>
+                        <h5 class="text-muted">Pro</h5>
+                        <h2 class="fw-bold my-3">$899<span class="fs-6 text-muted fw-normal">/mo</span></h2>
+                        <ul class="list-unstyled text-start text-muted mb-4">
+                            <li class="mb-2"><i class="fas fa-check text-success me-2"></i> 50 Sensors</li>
+                            <li class="mb-2"><i class="fas fa-check text-success me-2"></i> Real-time Dashboard</li>
+                            <li class="mb-2"><i class="fas fa-check text-success me-2"></i> SMS Alerts</li>
+                            <li class="mb-2"><i class="fas fa-check text-success me-2"></i> 24/7 Support</li>
+                        </ul>
+                        <a href="#" class="btn btn-custom w-100 mt-auto">Select Plan</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="card pricing-card border p-4 h-100">
+                        <h5 class="text-muted">Enterprise</h5>
+                        <h2 class="fw-bold my-3">Custom</h2>
+                        <ul class="list-unstyled text-start text-muted mb-4">
+                            <li class="mb-2"><i class="fas fa-check text-success me-2"></i> Unlimited Sensors</li>
+                            <li class="mb-2"><i class="fas fa-check text-success me-2"></i> Custom Integration</li>
+                            <li class="mb-2"><i class="fas fa-check text-success me-2"></i> Dedicated Manager</li>
+                        </ul>
+                        <a href="#" class="btn btn-outline-secondary w-100 mt-auto">Contact Sales</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-dark text-white text-center py-4 mt-auto">
+        <div class="container">
+            <p class="mb-0 small">&copy; 2026 AetherTrack IoT Systems. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
